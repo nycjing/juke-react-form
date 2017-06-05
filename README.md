@@ -7,6 +7,7 @@
 - [Fullstack Student / Alumni Blogs List](https://github.com/FullstackAcademy/student-blogs)
 - [Gist: Debugging](https://gist.github.com/glebec/8a0d06e54a4b3f95a33392f948e97b6a)
 - [Gist: Some code wars problems, categorized](https://gist.github.com/joedotjs/7614f84264bf20e49d39)
+- [Tom's Vim Configuration](https://github.com/tmkelly28/.vim)
 
 ---
 
