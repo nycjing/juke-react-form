@@ -1,4 +1,4 @@
-# 1706-FSA-CH Library
+# 1706-FSA-RM Library
 
 ## Helpful Resources/Links
 
@@ -34,4 +34,7 @@
 
 ## Junior Phase
 
-Nothing here yet!
+### Orientation and Intro to Junior Phase
+- [Orientation and Junior Phase Lecture]()
+- [Orientation slides](https://github.com/FullstackAcademy/1706-FSA-RM-Library/blob/master/01-junior-phase/Orientation.pdf)
+- [Intro to Junior Phase slides](https://github.com/FullstackAcademy/1706-FSA-RM-Library/blob/master/01-junior-phase/Intro-to-Jr-Phase.pdf)
