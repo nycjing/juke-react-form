@@ -38,3 +38,4 @@
 - [Orientation and Junior Phase Lecture](https://youtu.be/DbuweuXWsDg)
 - [Orientation slides](https://github.com/FullstackAcademy/1706-FSA-RM-Library/blob/master/01-junior-phase/Orientation-Remote.pdf)
 - [Intro to Junior Phase slides](https://github.com/FullstackAcademy/1706-FSA-RM-Library/blob/master/01-junior-phase/Intro-To-Junior-Phase.pdf)
+- [Junior Phase Outline](https://github.com/FullstackAcademy/1706-FSA-RM-Library/blob/master/01-junior-phase/junior-phase-outline.pdf)
