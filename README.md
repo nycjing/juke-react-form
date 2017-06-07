@@ -48,4 +48,5 @@
 - [Lecture: Data Structures Part 1A](https://youtu.be/Dem-PMYVTfA)
 - [Lecture: Data Structures Part 1B](https://youtu.be/_D724X66hEk)
 - [Lecture: Data Structures Part 2](https://youtu.be/akeiA70cbDQ)
+- [Review: Part 2](https://youtu.be/Tvno0CJqNSc)
 
