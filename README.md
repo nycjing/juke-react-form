@@ -53,6 +53,8 @@
 
 ## Selector
 - [Lecture: Intro to the DOM](https://youtu.be/gwCOoGjv1Xk)
+- [Review video](https://www.youtube.com/watch?v=WhVEZPsOP4I)
 
 ## Sorting
 - [Lecture: Sorting and Big O](https://youtu.be/OnRXC5KniDQ)
+- [Review video](https://www.youtube.com/watch?v=Dz0NkaBp-FM)
