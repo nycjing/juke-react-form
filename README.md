@@ -51,5 +51,7 @@
 - [Review video](https://www.youtube.com/watch?v=96J_nObHWe0)
 - [Live Q & A: Part 2](https://youtu.be/Tvno0CJqNSc)
 
+## Selector
+
 ## Sorting
 - [Lecture: Sorting and Big O](https://youtu.be/OnRXC5KniDQ)
