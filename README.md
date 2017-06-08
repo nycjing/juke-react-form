@@ -58,3 +58,4 @@
 ## Sorting
 - [Lecture: Sorting and Big O](https://youtu.be/OnRXC5KniDQ)
 - [Review video](https://www.youtube.com/watch?v=Dz0NkaBp-FM)
+- [Slides on Big O](http://slides.com/tomkelly-1/deck-1#/)
