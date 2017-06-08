@@ -60,3 +60,7 @@
 - [Review video](https://www.youtube.com/watch?v=Dz0NkaBp-FM)
 - [Slides on Big O](http://slides.com/tomkelly-1/deck-1#/)
 - [Review Q & A](https://youtu.be/fR9dS6D4z0s)
+
+## Game of Life
+- [Lecture: Game of Life ](https://youtu.be/UTBCTW6Y5Ko)
+- [Review Video: Game of Life ](https://www.youtube.com/playlist?list=PLx0iOsdUOUmkK8UEShdJy3RntLZjNXoj9)
