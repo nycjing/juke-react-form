@@ -2,11 +2,11 @@ var gameOfLife = {
   width: 12,
   height: 12, // width and height dimensions of the board
   stepInterval: null, // should be used to hold reference to an interval that is "playing" the game
-  
+
   createAndShowBoard: function () {
     // create <table> element
     var goltable = document.createElement("tbody");
-    
+
     // build Table HTML
     var tablehtml = '';
     for (var h=0; h<this.height; h++) {
@@ -17,26 +17,37 @@ var gameOfLife = {
       tablehtml += "</tr>";
     }
     goltable.innerHTML = tablehtml;
-    
+
     // add table to the #board element
     var board = document.getElementById('board');
     board.appendChild(goltable);
-    
+
     // once html elements are added to the page, attach events to them
     this.setupBoardEvents();
-  }, 
+  },
 
   forEachCell: function (iteratorFunc) {
-    
-    /* 
+
+    /*
       Write forEachCell here. You will have to visit
       each cell on the board, call the "iteratorFunc" function,
       and pass into func, the cell and the cell's x & y
       coordinates. For example: iteratorFunc(cell, x, y)
     */
-    var self = this;    
-    Array.from(document.getElementsByTagName('td')).forEach(function(cell){
-      var coords = self.getCoordsOfCell(cell);
+    var self = this; // this context: board/gol object
+
+    // Array.from: alternative to [].slice.call or Array.prototype.slice.call
+
+    // Array.prototype.forEach = function (callback) {
+    //   // this === [1, 2]
+    //   for (let i = 0; i < this.length; i++) {
+    //     callback(this[i], i)
+    //   }
+    // }
+
+    Array.from(document.getElementsByTagName('td')).forEach((cell) => {
+      var coords = this.getCoordsOfCell(cell);
+      // var coords = this.getCoordsOfCell(cell);   this === window :(
       iteratorFunc(cell, coords[0], coords[1]);
     })
     // Alternative approach with for loops
@@ -80,7 +91,7 @@ var gameOfLife = {
     var thisCellCoords = this.getCoordsOfCell(cell);
     var cellX = thisCellCoords[0];
     var cellY = thisCellCoords[1];
-    
+
     // Directly to left and right
     neighbors.push(this.selectCell(cellX-1, cellY));
     neighbors.push(this.selectCell(cellX+1, cellY));
@@ -98,7 +109,7 @@ var gameOfLife = {
     return neighbors.filter(function(neighbor){
       return neighbor !== null;
     })
-    
+
   },
   getAliveNeighbors: function(cell){
     var allNeighbors = this.getNeighbors(cell);
@@ -110,32 +121,32 @@ var gameOfLife = {
   selectCell: function(x,y){
     return document.getElementById(`${x}-${y}`);
   },
-  
-  // Game   
+
+  // Game
   setupBoardEvents: function() {
-    // each board cell has an CSS id in the format of: "x-y" 
+    // each board cell has an CSS id in the format of: "x-y"
     // where x is the x-coordinate and y the y-coordinate
     // use this fact to loop through all the ids and assign
-    // them "on-click" events that allow a user to click on 
+    // them "on-click" events that allow a user to click on
     // cells to setup the initial state of the game
     // before clicking "Step" or "Auto-Play"
-    
+
     // clicking on a cell should toggle the cell between "alive" & "dead"
     // for ex: an "alive" cell be colored "blue", a dead cell could stay white
-    
+
     // EXAMPLE FOR ONE CELL
     // Here is how we would catch a click event on just the 0-0 cell
     // You need to add the click event on EVERY cell on the board
     var gameOfLifeObj = this;
-    
+
     var onCellClick = function (e) {
       // QUESTION TO ASK YOURSELF: What is "this" equal to here?
-      
+
       // how to set the style of the cell when it's clicked
       gameOfLifeObj.toggleCellStatus(this);
     };
 
-    this.forEachCell(function(cell){           
+    this.forEachCell(function(cell){
       cell.onclick = onCellClick;
     });
 
@@ -153,14 +164,14 @@ var gameOfLife = {
     document.getElementById("play_btn").addEventListener('click', function(e){
       gameOfLifeObj.enableAutoPlay();
     });
-    
+
   },
 
   step: function () {
     // Here is where you want to loop through all the cells
     // on the board and determine, based on it's neighbors,
     // whether the cell should be dead or alive in the next
-    // evolution of the game. 
+    // evolution of the game.
     //
     // You need to:
     // 1. Count alive neighbors for all cells
