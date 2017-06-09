@@ -63,3 +63,4 @@
 
 # Game of Life
 - [REPL: This Context](https://repl.it/GabI/1)
+- [Review video](https://www.youtube.com/playlist?list=PLx0iOsdUOUmkK8UEShdJy3RntLZjNXoj9)
