@@ -69,3 +69,9 @@
 ## Node Shell
 - [Lecture: Node](https://youtu.be/m8lYq5XJyjM)
 - [Review video](https://www.youtube.com/watch?v=v_lhkZ849jk)
+- [Review Q & A](https://youtu.be/2FAMK4faip0)
+
+## Twitter.js
+- [Lecture: Express Part 1](https://youtu.be/m7HDJF8F-tY)
+- [Lecture: Express Part 2](https://youtu.be/tbpA578EqpY)
+

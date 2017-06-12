@@ -39,3 +39,17 @@
         * Used with custom-written modules (JS files): fetches by relative path, e.g. `var myCommands = require('./commands/index.js')`
           * Assumes the `js` extension, e.g. `var myCommands = require('./commands/index')`
           * Assumes an `index.js` file, e.g. `var myCommands = require('./commands/')` or `require('./commands')`
+
+# Questions
+
+* using a timeout instead of functions
+  * callback functions are very difficult, and they're also kind of like black holes: once you go in, there is no escape
+* uniq
+  * Sets are cool!
+  ```
+const mySet = new Set()
+  const someObj = {}
+mySet.add(2)
+mySet.add('asdf')
+mySet.add(someObj).add(someObj)
+  ```
