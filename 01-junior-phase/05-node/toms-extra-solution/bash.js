@@ -80,5 +80,10 @@ const main = () => {
 };
 
 // Kick things off with a function called 'main'.
-// This is a classic pattern that you'll find in many programming languages.
-main();
+// The expression `if require.main === module` checks to see if the `bash.js` file
+// is being executed directly (i.e. that we are actually saying `node bash.js`), vs.
+// being required by another file (i.e. another file causes bash.js to execute by saying `require('./bash.js')`)
+// This is a classic pattern that you'll find in several programming languages.
+if (require.main === module) {
+  main();
+}
