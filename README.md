@@ -68,3 +68,4 @@
 
 ## Node Shell
 - [Lecture: Node](https://youtu.be/m8lYq5XJyjM)
+- [Review video](https://www.youtube.com/watch?v=v_lhkZ849jk)
