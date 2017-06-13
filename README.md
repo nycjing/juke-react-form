@@ -63,4 +63,16 @@
 
 ## Game of Life
 - [Lecture: Game of Life ](https://youtu.be/UTBCTW6Y5Ko)
-- [Review Video: Game of Life ](https://www.youtube.com/playlist?list=PLx0iOsdUOUmkK8UEShdJy3RntLZjNXoj9)
+- [REPL: This Context](https://repl.it/GabI/1)
+- [Review video](https://www.youtube.com/playlist?list=PLx0iOsdUOUmkK8UEShdJy3RntLZjNXoj9)
+- [Review Q & A](https://youtu.be/7mgNzk-FHj8)
+
+## Node Shell
+- [Lecture: Node](https://youtu.be/m8lYq5XJyjM)
+- [Review video](https://www.youtube.com/watch?v=v_lhkZ849jk)
+- [Review Q & A](https://youtu.be/2FAMK4faip0)
+
+## Twitter.js
+- [Lecture: Express Part 1](https://youtu.be/m7HDJF8F-tY)
+- [Lecture: Express Part 2](https://youtu.be/tbpA578EqpY)
+
