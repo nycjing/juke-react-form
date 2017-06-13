@@ -74,4 +74,5 @@
 ## Twitter.js
 - [Lecture: Express Part 1](https://youtu.be/m7HDJF8F-tY)
 - [Lecture: Express Part 2](https://youtu.be/tbpA578EqpY)
+- [Review video](https://www.youtube.com/watch?v=0NvankAwgHU&feature=youtu.be)
 
