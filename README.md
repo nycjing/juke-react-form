@@ -76,3 +76,6 @@
 - [Lecture: Express Part 1](https://youtu.be/m7HDJF8F-tY)
 - [Lecture: Express Part 2](https://youtu.be/tbpA578EqpY)
 
+## SQL
+- [Lecture: Intro to Databases](https://youtu.be/a94B5YWd9So)
+
