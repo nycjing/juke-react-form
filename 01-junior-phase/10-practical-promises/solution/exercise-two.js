@@ -119,7 +119,7 @@ function problemC () {
   });
 
   var arrayOfPromises = filenames.map(function (filename) {
-    return promisifiedReadFile(fileName);
+    return promisifiedReadFile(filename);
   })
 
   Promise.all(arrayOfPromises)
