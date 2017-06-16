@@ -80,4 +80,20 @@
 
 ## SQL
 - [Lecture: Intro to Databases](https://youtu.be/a94B5YWd9So)
+- [Review video](https://www.youtube.com/watch?v=meRYC47giig)
+
+## Schema Design
+- [Lecture: Schema Design from 1704](https://www.youtube.com/watch?v=-_YTUiE9C6c&feature=youtu.be)
+
+## Twitter.sql
+- [Lecture: Intro to postgreS/pg](https://youtu.be/wV5CpE_zpI4)
+- [Review video from 1704](https://www.youtube.com/watch?v=tzh9QFmEd6g&feature=youtu.be)
+
+## Practical Promises
+- [Lecture: Practical Promises](https://youtu.be/dPNv-PkAxMw)
+- [Review video](https://www.youtube.com/watch?v=fm9WQN2Nqyw&feature=youtu.be)
+
+## Wikistack
+- [Lecture: Intro to ORMS](https://youtu.be/wTCDIlHbFrQ)
+
 
