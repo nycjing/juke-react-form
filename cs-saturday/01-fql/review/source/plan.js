@@ -69,4 +69,15 @@ Plan.prototype.matchesRow = function (row) {
   return isMatch;
 };
 
+Plan.prototype.setIndexLookup = function (column, key) {
+  this._indexedColumn = column;
+  this._indexedKey = key;
+};
+
+Plan.prototype.getInitialRowIds = function (table) {
+  if (!this.hasOwnProperty('_indexedColumn')) return table.getRowIds();
+  const indexTable = table.getIndexTable(this._indexedColumn);
+  return indexTable[this._indexedKey];
+};
+
 module.exports = Plan;

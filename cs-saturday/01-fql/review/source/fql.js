@@ -7,7 +7,7 @@ function FQL (table, plan = new Plan()) { // <= default value (cool!)
 }
 
 FQL.prototype.get = function () {
-  const ids = this._table.getRowIds();
+  const ids = this._plan.getInitialRowIds(this._table);
   const rows = [];
   for (let index = 0; index < ids.length; index++) {
     if (!this._plan.withinLimit(rows)) break;
@@ -47,7 +47,18 @@ FQL.prototype.select = function (...columns) {
 
 FQL.prototype.where = function (criteria) {
   const newFql = new FQL(this._table, this._plan.copy());
+
+  // indexing stuff
+  const indexedColumn = Object.keys(criteria).find((column) => {
+    return this._table.hasIndexTable(column);
+  });
+  if (indexedColumn) {
+    newFql._plan.setIndexLookup(indexedColumn, criteria[indexedColumn]);
+    delete criteria[indexedColumn];
+  }
+
   newFql._plan.setCriteria(criteria);
+
   return newFql;
 };
 

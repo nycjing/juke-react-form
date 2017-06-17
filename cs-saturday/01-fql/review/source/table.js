@@ -2,6 +2,7 @@ const fs = require('fs');
 
 function Table (folderPath) {
   this._folderPath = folderPath;
+  this._allIndexTables = {};
 }
 
 Table.toFilename = function (id) {
@@ -37,5 +38,25 @@ Table.prototype.getRowIds = function () {
 //   });
 //   return filenames;
 // };
+
+Table.prototype.addIndexTable = function (column) {
+  const indexTable = {};
+  const ids = this.getRowIds();
+  ids.forEach((id) => {
+    const row = this.read(id);
+    const indexColumn = row[column];
+    indexTable[indexColumn] = indexTable[indexColumn] || [];
+    indexTable[indexColumn].push(id);
+  });
+  this._allIndexTables[column] = indexTable;
+};
+
+Table.prototype.hasIndexTable = function (column) {
+  return this._allIndexTables.hasOwnProperty(column);
+};
+
+Table.prototype.getIndexTable = function (column) {
+  return this._allIndexTables[column];
+};
 
 module.exports = Table;
