@@ -96,4 +96,13 @@
 ## Wikistack
 - [Lecture: Intro to ORMS](https://youtu.be/wTCDIlHbFrQ)
 
+---
 
+## CS Saturday
+
+### FQL
+
+- [Lecture: Intro](https://youtu.be/pasHX-mJU5E)
+- [Review: Parts I and II](https://youtu.be/VwtX7nQIZQk)
+- [Lecture: Indexing](https://youtu.be/H5xqXpFkecI)
+- [Review: Part III](https://youtu.be/uYRkO7NYmjA)
