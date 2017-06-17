@@ -145,3 +145,24 @@ In eastern time...
 - Lecture on indexing (3:30–4:00)
 - Work on parts III and IV (4:00–5:30)
 - Review on part III (maybe a little of IV) (5:30–6:00)
+
+---
+
+## Indexing
+
+What is it? A quick way to look things up with a large amount of data. It's like giving you the speed of lookup that the primary key column (e.g. "id") has but for other columns!
+
+A lot like a glossary. We can use a glossary to quickly find the page numbers for a certain word / concept / whatever in a book. From there we can quickly jump to those exact pages.
+
+We can generate an index table for a particular column. The index table columns will be what _were_ row values in the main table. The index table values will be primary keys from the main table.
+
+We can _use_ the index table in our `where` queries. We can check the criteria for any existing index tables and isntead of doing the ordinary filtering...do something else!
+
+This is really powerful tool in DBMS, intermediate / advanced database administration.
+
+Indexing isn't always a good idea. Downsides to indexing...
+
+- High cost one time, so only useful for repeated queries that make use of it
+- Duplicate storage: more space
+- Maintaining index tables for write operations (inserts / updates / deletes): added complexity, added space, added time
+- Insufficient diversity based on what you're indexing
