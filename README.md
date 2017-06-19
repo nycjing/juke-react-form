@@ -95,5 +95,6 @@
 
 ## Wikistack
 - [Lecture: Intro to ORMS](https://youtu.be/wTCDIlHbFrQ)
-
+- [Review video part 1](https://www.youtube.com/watch?v=stTJmJ-uGtg)
+- [Review video part 2](https://www.youtube.com/watch?v=7iPyaokenlg)
 
