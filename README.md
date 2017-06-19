@@ -98,6 +98,8 @@
 - [Review video part 1](https://www.youtube.com/watch?v=stTJmJ-uGtg)
 - [Review video part 2](https://www.youtube.com/watch?v=7iPyaokenlg)
 
+## Testing
+- [Lecture: Testing](https://youtu.be/zR_XdHb2VWg)
 
 ---
 
