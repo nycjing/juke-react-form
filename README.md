@@ -100,6 +100,10 @@
 
 ## Testing
 - [Lecture: Testing](https://youtu.be/zR_XdHb2VWg)
+- [Live Review](https://youtu.be/UDMsD3pjeVQ)
+
+## Pledge
+- [Lecture: Promise Mechanics](https://youtu.be/QuOPaGaL72M)
 
 ---
 
