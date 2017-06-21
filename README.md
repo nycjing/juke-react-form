@@ -104,6 +104,7 @@
 
 ## Pledge
 - [Lecture: Promise Mechanics](https://youtu.be/QuOPaGaL72M)
+- [Live Review](https://youtu.be/p1PN8p3__Bo)
 
 ---
 
