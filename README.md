@@ -111,6 +111,9 @@
 ### Static UI
 - [Lecture: Scaffolding](https://youtu.be/qyL2702uX8E)
 
+## Express/Sequelize Review
+- [Recording](https://youtu.be/SYFDV_wu1CQ)
+
 ---
 
 ## CS Saturday
