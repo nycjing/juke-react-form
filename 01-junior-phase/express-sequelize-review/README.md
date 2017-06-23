@@ -14,7 +14,8 @@
   its magical 'association methods' on (and you can have both!)
 
   For the case of `Dog.belongsTo(Owner)`, the following methods will exist:
-    `dog.getOwner()`
+      Sequelize does something like this: Dog.prototype['get' + relatedTableWithFirstCharacterUppercase]
+    `dog.getOwner()` // name: 'Reggie', breed: 'terrier', ownerId: 1 (name: 'Shayne', id: 1)
     `dog.setOwner()`
 
   For the case of `Owner.hasMany(Dog)`, the following methods will exist:
@@ -31,19 +32,35 @@
 
   const Dog = db.define('dog', {
     name: Sequelize.STRING,
-    breed: Sequelize.STRING
+    breed: Sequelize.STRING,
+    friendName: Sequelize.STRING
   }, {
 
     instanceMethods: {
-      foo: function () {
+      bark: function () { // do not make bark an arrow function
+        console.log(this.name) // "Cody"
         // `this` refers to the instance (lowercase 'd' dog)
 
         // defines methods that individual dogs will use (ex. `dog.bark()`)
+
+      },
+      getFriends: function () { // do not make getFriends an arrow function
+
+        return Dog.findAll({where: {friendName: this.name}}) // this.name === "Cody"
+
+        .then((friends) => { // make the callback an arrow function!
+          console.log(this.bark(friends))
+        })
+
       }
     },
 
     classMethods: {
-      bar: function () {
+      findAllPugs: function () {
+        // this === Dog
+        return this.findAll({ where: { breed: 'pug' } })
+        // or
+        return Dog.findAll({where: {breed: 'pug'}})
         // `this` refers to the class (uppercase 'D' Dog)
 
         // defines methods that the Dog class will use (Dog.findAllPugs())
@@ -54,7 +71,7 @@
       baz: function () {
         // `this` refers to the instance (lowercase 'd' dog)
 
-        // defines 'virtual' columnsn that DO NOT exist in the database,
+        // defines 'virtual' columns that DO NOT exist in the database,
         // but can be calculated on the fly.
 
         // For example, say we want to access a dogs 'fullName', which is its name + its breed like so:
@@ -63,6 +80,7 @@
         // So we write a getterMethod called 'fullName' that can `return this.name + ' the ' + this.breed`.
         // Now, on our dog instances, we can access a property called `dog.fullName`.
         // Note that we access this the way we access a PROPERTY - we do NOT invoke this.
+        // DO NOT DO THIS: `dog.fullName()`, INSTEAD DO THIS: `dog.fullName`
       }
     },
 
