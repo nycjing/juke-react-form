@@ -106,11 +106,20 @@
 - [Lecture: Promise Mechanics](https://youtu.be/QuOPaGaL72M)
 - [Live Review](https://youtu.be/p1PN8p3__Bo)
 
+## Shoestring
+- [Lecture: HTML & CSS](https://youtu.be/te4vt1CWZNQ)
+- [Live Review: part 1](https://youtu.be/acfHyGVM8AQ)
+- [Live Review: part 2](https://youtu.be/BvrRXWjAZYc)
+
 ## Trip Planner
 
 ### Static UI
 - [Lecture: Scaffolding](https://youtu.be/qyL2702uX8E)
 - [Live Review](https://youtu.be/ODXnTDNPJuY)
+
+### Live UI
+- [Lecture: Intro to jQuery](https://youtu.be/aM7J8zlw3s8)
+
 
 ## Express/Sequelize Review
 - [Recording](https://youtu.be/SYFDV_wu1CQ)
