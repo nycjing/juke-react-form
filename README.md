@@ -106,6 +106,11 @@
 - [Lecture: Promise Mechanics](https://youtu.be/QuOPaGaL72M)
 - [Live Review](https://youtu.be/p1PN8p3__Bo)
 
+## Shoestring
+- [Lecture: HTML & CSS](https://youtu.be/te4vt1CWZNQ)
+- [Live Review: part 1](https://youtu.be/acfHyGVM8AQ)
+- [Live Review: part 2](https://youtu.be/BvrRXWjAZYc)
+
 ## Trip Planner
 
 ### Static UI
