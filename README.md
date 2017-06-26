@@ -51,79 +51,79 @@
 - [Review video](https://www.youtube.com/watch?v=96J_nObHWe0)
 - [Live Q & A: Part 2](https://youtu.be/Tvno0CJqNSc)
 
-## Selector
+### Selector
 - [Lecture: Intro to the DOM](https://youtu.be/gwCOoGjv1Xk)
 - [Review video](https://www.youtube.com/watch?v=WhVEZPsOP4I)
 
-## Sorting
+### Sorting
 - [Lecture: Sorting and Big O](https://youtu.be/OnRXC5KniDQ)
 - [Review video](https://www.youtube.com/watch?v=Dz0NkaBp-FM)
 - [Slides on Big O](http://slides.com/tomkelly-1/deck-1#/)
 - [Review Q & A](https://youtu.be/fR9dS6D4z0s)
 
-## Game of Life
+### Game of Life
 - [Lecture: Game of Life ](https://youtu.be/UTBCTW6Y5Ko)
 - [REPL: This Context](https://repl.it/GabI/1)
 - [Review video](https://www.youtube.com/playlist?list=PLx0iOsdUOUmkK8UEShdJy3RntLZjNXoj9)
 - [Review Q & A](https://youtu.be/7mgNzk-FHj8)
 
-## Node Shell
+### Node Shell
 - [Lecture: Node](https://youtu.be/m8lYq5XJyjM)
 - [Review video](https://www.youtube.com/watch?v=v_lhkZ849jk)
 - [Review Q & A](https://youtu.be/2FAMK4faip0)
 
-## Twitter.js
+### Twitter.js
 - [Lecture: Express Part 1](https://youtu.be/m7HDJF8F-tY)
 - [Lecture: Express Part 2](https://youtu.be/tbpA578EqpY)
 - [Review video](https://www.youtube.com/watch?v=0NvankAwgHU&feature=youtu.be)
 - [Review Q & A](https://youtu.be/kedwfcjY5-U)
 
-## SQL
+### SQL
 - [Lecture: Intro to Databases](https://youtu.be/a94B5YWd9So)
 - [Review video](https://www.youtube.com/watch?v=meRYC47giig)
 
-## Schema Design
+### Schema Design
 - [Lecture: Schema Design from 1704](https://www.youtube.com/watch?v=-_YTUiE9C6c&feature=youtu.be)
 
-## Twitter.sql
+### Twitter.sql
 - [Lecture: Intro to postgreS/pg](https://youtu.be/wV5CpE_zpI4)
 - [Review video from 1704](https://www.youtube.com/watch?v=tzh9QFmEd6g&feature=youtu.be)
 
-## Practical Promises
+### Practical Promises
 - [Lecture: Practical Promises](https://youtu.be/dPNv-PkAxMw)
 - [Review video](https://www.youtube.com/watch?v=fm9WQN2Nqyw&feature=youtu.be)
 
-## Wikistack
+### Wikistack
 - [Lecture: Intro to ORMS](https://youtu.be/wTCDIlHbFrQ)
 - [Review video part 1](https://www.youtube.com/watch?v=stTJmJ-uGtg)
 - [Review video part 2](https://www.youtube.com/watch?v=7iPyaokenlg)
 
-## Testing
+### Testing
 - [Lecture: Testing](https://youtu.be/zR_XdHb2VWg)
 - [Live Review](https://youtu.be/UDMsD3pjeVQ)
 
-## Pledge
+### Pledge
 - [Lecture: Promise Mechanics](https://youtu.be/QuOPaGaL72M)
 - [Live Review](https://youtu.be/p1PN8p3__Bo)
 
-## Shoestring
+### Shoestring
 - [Lecture: HTML & CSS](https://youtu.be/te4vt1CWZNQ)
 - [Live Review: part 1](https://youtu.be/acfHyGVM8AQ)
 - [Live Review: part 2](https://youtu.be/BvrRXWjAZYc)
 
-## Trip Planner
+### Trip Planner
 
-### Static UI
+#### Static UI
 - [Lecture: Scaffolding](https://youtu.be/qyL2702uX8E)
 - [Live Review](https://youtu.be/ODXnTDNPJuY)
 
-### Live UI
+#### Live UI
 - [Lecture: Intro to jQuery](https://youtu.be/aM7J8zlw3s8)
 
-## Express/Sequelize Review
+### Express/Sequelize Review
 - [Recording](https://youtu.be/SYFDV_wu1CQ)
 
-## VR Lab Lecture
+### VR Lab Lecture
 - [Recording](https://youtu.be/zjrwvw2RL-M)
 
 ---
@@ -135,3 +135,6 @@
 - [Review: Parts I and II](https://youtu.be/VwtX7nQIZQk)
 - [Lecture: Indexing](https://youtu.be/H5xqXpFkecI)
 - [Review: Part III](https://youtu.be/uYRkO7NYmjA)
+
+### Machine Learning
+- [Lecture: Intro to Machine Learning](https://www.youtube.com/watch?v=wiYU2fBzvi0)
