@@ -112,6 +112,10 @@
 - [Lecture: Scaffolding](https://youtu.be/qyL2702uX8E)
 - [Live Review](https://youtu.be/ODXnTDNPJuY)
 
+### Live UI
+- [Lecture: Intro to jQuery](https://youtu.be/aM7J8zlw3s8)
+
+
 ## Express/Sequelize Review
 - [Recording](https://youtu.be/SYFDV_wu1CQ)
 
