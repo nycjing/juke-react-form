@@ -135,6 +135,7 @@
 - [Review: Parts I and II](https://youtu.be/VwtX7nQIZQk)
 - [Lecture: Indexing](https://youtu.be/H5xqXpFkecI)
 - [Review: Part III](https://youtu.be/uYRkO7NYmjA)
+- [Review: Part IV (from a previous cohort)](https://youtu.be/la8lpWPTwxA?t=50m30s)
 
 ### Machine Learning
 - [Lecture: Intro to Machine Learning](https://www.youtube.com/watch?v=wiYU2fBzvi0)
