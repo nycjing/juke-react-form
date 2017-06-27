@@ -1,0 +1,11 @@
+body > div {
+  margin-top: 50px;
+}
+
+#cody {
+  background-image: url('/cody.jpg');
+  background-position: center;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
