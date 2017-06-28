@@ -123,6 +123,7 @@
 
 ### Persistence
 - [Lecture: AJAX](https://youtu.be/zf2WjVHClWI)
+- [Video Review](https://www.youtube.com/watch?v=DeFD0EuG4dY)
 
 ### Express/Sequelize Review
 - [Recording](https://youtu.be/SYFDV_wu1CQ)
