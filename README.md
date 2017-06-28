@@ -119,6 +119,7 @@
 
 #### Live UI
 - [Lecture: Intro to jQuery](https://youtu.be/aM7J8zlw3s8)
+- [Video Review](https://www.youtube.com/watch?v=gajJ9BHLiKA)
 
 ### Express/Sequelize Review
 - [Recording](https://youtu.be/SYFDV_wu1CQ)
