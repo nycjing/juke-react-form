@@ -121,6 +121,9 @@
 - [Lecture: Intro to jQuery](https://youtu.be/aM7J8zlw3s8)
 - [Video Review](https://www.youtube.com/watch?v=gajJ9BHLiKA)
 
+### Persistence
+- [Lecture: AJAX](https://youtu.be/zf2WjVHClWI)
+
 ### Express/Sequelize Review
 - [Recording](https://youtu.be/SYFDV_wu1CQ)
 
