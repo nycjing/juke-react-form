@@ -121,10 +121,14 @@
 - [Lecture: Intro to jQuery](https://youtu.be/aM7J8zlw3s8)
 - [Video Review](https://www.youtube.com/watch?v=gajJ9BHLiKA)
 
-### Persistence
+#### Persistence
 - [Lecture: AJAX](https://youtu.be/zf2WjVHClWI)
 - [Video Review](https://www.youtube.com/watch?v=DeFD0EuG4dY)
 - [Q & A](https://youtu.be/SUW4xF4XQwQ)
+
+### World Wide Whiteboard
+- [Lecture: Event Emitters and socket.io](https://youtu.be/Kr7CjO1ZhFg)
+- [Video Review](https://www.youtube.com/watch?v=bSS9lzP8Si8)
 
 ### Express/Sequelize Review
 - [Recording](https://youtu.be/SYFDV_wu1CQ)
