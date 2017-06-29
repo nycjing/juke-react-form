@@ -13,6 +13,7 @@
     this.breed = breed
   }
 
+  // inherit from Animal
   Dog.prototype = Object.create(Animal.prototype)
   Dog.prototype.constructor = Dog
 
@@ -23,7 +24,7 @@
 
   // instance methods
   Dog.prototype.bark = function () {
-    return 'I am a dog named ' + this.name
+    return 'Arf! I am a dog named ' + this.name
   }
 
   Dog.prototype.chew = function (toy) {
