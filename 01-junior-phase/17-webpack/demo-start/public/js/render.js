@@ -1,11 +1,12 @@
-(function () {
 
-  var domNode = document.getElementById('output')
+  const domNode = document.getElementById('output')
 
   // like console.log, only it just appends a <p> to the DOM!
-  function render (string) {
-    domNode.innerHTML += '<p>' + string + '</p>'
-  }
+  const render = string => domNode.innerHTML += `<p>${string}</p>`
+  console.log([1, 2, 3].map(number => number * 2)) // [2, 4, 6]
 
-  window.render = render
-})()
+
+  // template strings
+  // domNode.innerHTML += '<p>' + string + '</p>'
+
+module.exports = render

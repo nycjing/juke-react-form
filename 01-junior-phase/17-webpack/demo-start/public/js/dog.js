@@ -1,44 +1,39 @@
-(function () {
+const Animal = require('./animal')
+const render = require('./render')
 
-  var breeds = ['pug', 'goldendoodle', 'terrier']
+const breeds = ['pug', 'goldendoodle', 'terrier']
 
-  function Dog (name, breed) {
-    Animal.call(this, name)
+// console.log(typeof Dog) // function
 
-    // default breed to be pug
-    if (!breed) {
-      breed = 'pug'
-    }
+class Dog extends Animal {
 
+  constructor (name, breed = 'pug') {
+    super(name)
     this.breed = breed
   }
 
-  // inherit from Animal
-  Dog.prototype = Object.create(Animal.prototype)
-  Dog.prototype.constructor = Dog
-
-  // class methods (or 'static' methods)
-  Dog.getBreeds = function () {
-    return breeds
-  }
-
   // instance methods
-  Dog.prototype.bark = function () {
+  bark () {
     render('Arf! I am a dog named ' + this.name)
   }
 
-  Dog.prototype.chew = function (toy) {
+  chew (toy) {
     render(this.name + ' chewed ' + toy)
   }
 
-  Dog.prototype.chewManyToys = function () {
-    var toys = [].slice.call(arguments)
-    var self = this
-    toys.forEach(function (toy) {
-      self.chew(toy)
+  // chewManyToys('a', 'v', 'c', 'd')
+  //   a = 'a'
+  //   b = 'v'
+  //   toys = ['c', 'd']
+  chewManyToys (...toys) {
+    toys.forEach(toy => {
+      this.chew(toy)
     })
   }
 
-  window.Dog = Dog
+  static getBreeds () {
+    return breeds
+  }
+}
 
-})()
+module.exports = Dog

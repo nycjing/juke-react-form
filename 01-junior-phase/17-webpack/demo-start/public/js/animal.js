@@ -1,13 +1,15 @@
-(function () {
+const render = require('./render')
 
-  function Animal (name) {
+class Animal {
+
+  constructor (name) {
     this.name = name
   }
 
-  Animal.prototype.sayName = function () {
-    render('Hello, my name is ' + this.name)
+  sayName () {
+    render(`Hello, my name is ${this.name}`)
   }
 
-  window.Animal = Animal
+}
 
-})()
+module.exports = Animal

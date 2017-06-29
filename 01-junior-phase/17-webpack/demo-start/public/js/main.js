@@ -1,7 +1,5 @@
-(function main () {
+const Dog = require('./dog')
 
-  var cody = new Dog('Cody')
-  cody.bark()
-  cody.chewManyToys('stick', 'squeaky thing')
-
-})()
+const cody = new Dog('Cody')
+cody.bark()
+cody.chewManyToys('stick', 'squeaky thing')
