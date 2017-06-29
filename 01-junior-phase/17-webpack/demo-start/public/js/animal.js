@@ -5,7 +5,7 @@
   }
 
   Animal.prototype.sayName = function () {
-    return 'Hello, my name is ' + this.name
+    render('Hello, my name is ' + this.name)
   }
 
   window.Animal = Animal
