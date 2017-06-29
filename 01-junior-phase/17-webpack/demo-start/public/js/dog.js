@@ -24,14 +24,15 @@
 
   // instance methods
   Dog.prototype.bark = function () {
-    return 'Arf! I am a dog named ' + this.name
+    render('Arf! I am a dog named ' + this.name)
   }
 
   Dog.prototype.chew = function (toy) {
-    return this.name + ' chewed ' + toy
+    render(this.name + ' chewed ' + toy)
   }
 
-  Dog.prototype.chewToys = function (toys) {
+  Dog.prototype.chewManyToys = function () {
+    var toys = [].slice.call(arguments)
     var self = this
     toys.forEach(function (toy) {
       self.chew(toy)
