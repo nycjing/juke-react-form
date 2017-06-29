@@ -13,7 +13,7 @@ whiteboard.on('draw', function toBeRunOnlyOnDraw(start, end, color){
 })
 
 socket.on('otherDraw', function(start, end, color){
-whiteboard.draw(start, end, color)
+	whiteboard.draw(start, end, color)
 })
 
 
@@ -22,14 +22,13 @@ whiteboard.draw(start, end, color)
 
 // socket.on('connect', function () {
 
-//     var room = 'room';
+//     var room = window.location.pathname;
 
 //     socket.emit('wantToJoinRoomPlox', room);
 
 //     whiteboard.on('draw', function (start, end, color) {
 //         socket.emit('newDraw', start, end, color);
 //     });
-
 
 
 //     socket.on('drawHistory', function (drawHistory) {

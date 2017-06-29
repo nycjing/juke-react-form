@@ -18,7 +18,7 @@ var socketio = require('socket.io');
 var io = socketio(server);
 
 
-// // use socket server as an event emitter in order to listen for new connctions
+// use socket server as an event emitter in order to listen for new connctions
 io.on('connection', function(socket){
 
 
@@ -83,7 +83,7 @@ ROOMS:
 
 app.use(express.static(path.join(__dirname, 'browser')));
 
-app.get('/', function (req, res) {
+app.get('/*', function (req, res) {
     res.sendFile(path.join(__dirname, 'index.html'));
 });
 
