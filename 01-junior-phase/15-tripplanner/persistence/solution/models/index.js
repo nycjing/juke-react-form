@@ -6,8 +6,13 @@ var Restaurant = require('./restaurant');
 var Activity = require('./activity');
 var Day = require('./day');
 
+// adds: hotel.getPlace and hotel.setPlace
 Hotel.belongsTo(Place);
+
+// adds: restaurant.getPlace and restaurant.setPlace
 Restaurant.belongsTo(Place);
+
+// adds: activity.getPlace and activity.setPlace
 Activity.belongsTo(Place);
 
 Day.belongsTo(Hotel);
@@ -22,3 +27,19 @@ module.exports = {
 	Activity,
 	Day
 };
+
+
+/***
+// instance not yet saved in the database
+const hotel = Hotel.build({})
+hotel.save()
+  .then(savedHotel => {
+    // hotel that was definitely saved in the database
+    savedHotel.setPlace(place)
+  })
+**/
+
+
+
+
+
