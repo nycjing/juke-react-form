@@ -130,6 +130,9 @@
 - [Lecture: Event Emitters and socket.io](https://youtu.be/Kr7CjO1ZhFg)
 - [Video Review](https://www.youtube.com/watch?v=bSS9lzP8Si8)
 
+### Webpack World Wide
+- [Lecture: Webpack and ES6](https://youtu.be/UmUJ7mBpKm8)
+
 ### Express/Sequelize Review
 - [Recording](https://youtu.be/SYFDV_wu1CQ)
 
