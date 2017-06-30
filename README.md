@@ -132,6 +132,7 @@
 
 ### Webpack World Wide
 - [Lecture: Webpack and ES6](https://youtu.be/UmUJ7mBpKm8)
+- [Q & A](https://youtu.be/UHV2fMuTzdM)
 
 ### Express/Sequelize Review
 - [Recording](https://youtu.be/SYFDV_wu1CQ)
