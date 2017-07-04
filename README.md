@@ -134,6 +134,10 @@
 - [Lecture: Webpack and ES6](https://youtu.be/UmUJ7mBpKm8)
 - [Q & A](https://youtu.be/UHV2fMuTzdM)
 
+### Juke - React
+- [Lecture: Intro to React part One](https://youtu.be/g0v1rwYKDqc)
+- [Lecture: Intro to React part Two](https://youtu.be/5YMEQf-QMI4)
+
 ### Express/Sequelize Review
 - [Recording](https://youtu.be/SYFDV_wu1CQ)
 
