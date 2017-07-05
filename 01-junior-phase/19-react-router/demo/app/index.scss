@@ -1,0 +1,25 @@
+body {
+  font-family: Arial;
+}
+
+.box {
+  margin: 50px;
+  padding: 50px;
+}
+
+.blue-box {
+  background-color: blue;
+  color: white;
+  @extend .box;
+}
+
+.red-box {
+  background-color: red;
+  color: white;
+  @extend .box;
+}
+
+.green-box {
+  background-color: green;
+  @extend .box;
+}
