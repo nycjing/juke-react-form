@@ -154,6 +154,9 @@
 ### VR Lab Lecture
 - [Recording](https://youtu.be/zjrwvw2RL-M)
 
+### Senior Enrichment Project
+- [Repo](https://github.com/FullstackAcademy/senior-enrichment)
+
 ---
 
 ## CS Saturday
