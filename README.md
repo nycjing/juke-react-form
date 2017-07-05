@@ -140,6 +140,7 @@
 - [Lecture: Intro to React part One](https://youtu.be/g0v1rwYKDqc)
 - [Lecture: Intro to React part Two](https://youtu.be/5YMEQf-QMI4)
 - [Review Playlist](https://www.youtube.com/playlist?list=PLx0iOsdUOUmmBu2TQGOvQIoF6akSyzPn3)
+- [Q & A](https://youtu.be/cYxKm2V9PA0)
 
 #### React Router
 - [Lecture: React Router]()

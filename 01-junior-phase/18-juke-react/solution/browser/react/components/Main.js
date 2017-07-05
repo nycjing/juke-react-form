@@ -38,6 +38,7 @@ export default class Main extends Component {
   }
 
   render () {
+    console.log('ALBUMS: ', this.state.albums)
     return (
       <div id="main" className="container-fluid">
         <div className="col-xs-2">
