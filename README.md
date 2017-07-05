@@ -143,7 +143,7 @@
 - [Q & A](https://youtu.be/cYxKm2V9PA0)
 
 #### React Router
-- [Lecture: React Router]()
+- [Lecture: React Router](https://youtu.be/rXqyyhUoxgY)
 
 #### Forms
 - [Lecture: Forms]()
