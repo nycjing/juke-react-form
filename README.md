@@ -134,9 +134,18 @@
 - [Lecture: Webpack and ES6](https://youtu.be/UmUJ7mBpKm8)
 - [Q & A](https://youtu.be/UHV2fMuTzdM)
 
-### Juke - React
+### Juke
+
+#### Intro to React
 - [Lecture: Intro to React part One](https://youtu.be/g0v1rwYKDqc)
 - [Lecture: Intro to React part Two](https://youtu.be/5YMEQf-QMI4)
+- [Review Playlist](https://www.youtube.com/playlist?list=PLx0iOsdUOUmmBu2TQGOvQIoF6akSyzPn3)
+
+#### React Router
+- [Lecture: React Router]()
+
+#### Forms
+- [Lecture: Forms]()
 
 ### Express/Sequelize Review
 - [Recording](https://youtu.be/SYFDV_wu1CQ)
