@@ -144,6 +144,8 @@
 
 #### React Router
 - [Lecture: React Router](https://youtu.be/rXqyyhUoxgY)
+- [Review Playlist](https://www.youtube.com/playlist?list=PLx0iOsdUOUmn8ldYk3DnNSpjEEG7VN3Yo)
+- [Review Q & A](https://youtu.be/ifYzjD36UFw)
 
 #### Forms
 - [Lecture: Forms]()
