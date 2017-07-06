@@ -42,9 +42,11 @@ class SingleArtist extends React.Component {
           <li><Link to={`/artists/${artist.id}/songs`}>SONGS</Link></li>
         </ul>
         <Switch>
+          {/* /artists/1/albums */}
           <Route path={`/artists/${artist.id}/albums`} render={() => (
             <AllAlbums albums={albums} />
           )} />
+          {/* /artists/1/songs */}
           <Route path={`/artists/${artist.id}/songs`} render={() => (
             <Songs songs={songs} />
           )} />
