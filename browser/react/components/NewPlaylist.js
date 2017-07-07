@@ -1,5 +1,5 @@
 import React from 'react';
-
+import axios from 'axios';
 
 export default class NewPlaylist extends React.Component {
     constructor() {
@@ -21,18 +21,12 @@ export default class NewPlaylist extends React.Component {
         console.log(event.target.value)
     }
 
-    handleSubmit(event) {
-        event.preventDefault()
-         this.addNewFeed(this.state.playlistName)
+    handleSubmit (evt) {
+        evt.preventDefault(); // prevent the page from refreshing
+        this.props.addPlaylist(this.state.playlistName); // pass the input value to the method from Main!
+        this.setState({playlistName: ''}); // reset the input value to be empty
     }
 
-    addNewFeed(text){
-        console.log('New feed', text)
-        this.setState({
-            playlistName: '',
-            fired: true
-        })
-    }
 
     render() {
     console.log(!this.state.fired)
