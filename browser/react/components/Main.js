@@ -8,6 +8,8 @@ import Sidebar from './Sidebar';
 import Player from './Player';
 import NewPlaylist from './NewPlaylist';
 
+
+
 export default class Main extends Component {
 
   render () {
